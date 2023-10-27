@@ -22,16 +22,5 @@
       "price": 21
     }
   ],
-  "requests": [
-    {
-      "name": "bvcbc",
-      "phone": "0552575318",
-      "id": 1
-    },
-    {
-      "name": "cvcv",
-      "phone": "0552575318",
-      "id": 2
-    }
-  ]
+  "requests": []
 }
