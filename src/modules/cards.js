@@ -1,4 +1,4 @@
-import { getResource } from '../../../servises/servises';
+import { getResource } from '../../servises/servises';
 function cards() {
     class MenuCard {
         constructor(src, alt, title, descr, price, parentSelector, ...classes) {

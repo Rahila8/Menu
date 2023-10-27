@@ -1,11 +1,11 @@
-import tabs from './modules/tabs';
-import modal from './modules/modal';
-import timer from './modules/timer';
-import cards from './modules/cards';
-import calc from './modules/calc';
-import forms from './modules/forms';
-import slider from './modules/slider';
-import { openModal } from './modules/modal';
+import tabs from './src/modules/tabs';
+import modal from './src/modules/modal';
+import timer from './src/modules/timer';
+import cards from './src/modules/cards';
+import calc from './src/modules/calc';
+import forms from './src/modules/forms';
+import slider from './src/modules/slider';
+import { openModal } from './src/modules/modal';
 
 window.addEventListener('DOMContentLoaded', function () {
     const modalTimerId = setTimeout(() => openModal('.modal', modalTimerId), 50000);
